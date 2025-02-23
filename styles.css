@@ -298,18 +298,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
 
   }
 
   .progress-bar{
-    width: 70%;
+    width: 69%;
     appearance: none;
     background-color: transparent;
     cursor: pointer;
   }
 
   .progress-bar::-webkit-slider-runnable-track{
-    background-color: #ddd;
+    background-color: #14c750;
     border-radius: 100px;
     height: 0.10rem;
     
@@ -320,10 +321,15 @@ body {
     appearance: none;
     height: 0.5rem;
     width: 0.5rem;
-    background-color:#1bd760;
+    background-color:#dfe2e0;
     border-radius: 50%;
     margin-top: -4px;
 
+  }
+
+  .time{
+    font-size: 0.75rem;
+    color: #dfe2e0;
   }
    
   .controls{
